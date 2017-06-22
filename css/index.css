@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -11,4 +14,11 @@ div:hover {
   nav {
     flex-direction: column;
   }
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
